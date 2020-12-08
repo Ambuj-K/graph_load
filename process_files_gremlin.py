@@ -15,7 +15,7 @@ ENDPOINT = 'wss://intership-assignments-2020.gremlin.cosmos.azure.com:443/'
 DATABASE = 'graph-data-ambuj-kumar'
 COLLECTION = 'graph-data-ambuj-kumar'
 PRIMARY_KEY = \
-    'NKkjm9bHTY8ePTfRytoOFuIF4IKmLB4U8reM5Kxm2XHzqEuQ7yFG6FCdRA4MQK31JnyB2mgpTTCcFelmt6JRNA== '
+    ''
 
 client_grem = cl.Client(
     message_serializer=serializer.GraphSONSerializersV2d0(),
