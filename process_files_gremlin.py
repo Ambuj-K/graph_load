@@ -118,10 +118,6 @@ def handler():
         if process_graph_queries(blob) == "Successful":
             config.set("Default", blob.name, "True")
 
-        data = json.loads(blob.download_as_string())
-        for i in data:
-            print(i)
-
 
 if __name__ == '__main__':
     handler()
